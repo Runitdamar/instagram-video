@@ -3,7 +3,7 @@ import requests
 import threading
 from http.server import HTTPServer, BaseHTTPRequestHandler
 
-bot = telebot.TeleBot("YOUR_NEW_TOKEN_HERE")
+bot = telebot.TeleBot("8711677456:AAHBKIdHU3URAXnJ0fJq7thSLO3ki2zPwjU")
 
 class Handler(BaseHTTPRequestHandler):
     def do_GET(self):
